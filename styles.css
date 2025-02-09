@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #228B22; /* سبز تیره */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  #mode-selection {
+    margin-top: 20px;
+  }
+  
+  #mode-selection button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #game-container {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #board-container {
+    background-color: #004d00; /* سبز تیره‌تر */
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 2px;
+    background-color: #006400;
+    padding: 10px;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    background-color: #228B22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .cell .piece {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .piece.white {
+    background-color: white;
+  }
+  
+  .piece.black {
+    background-color: black;
+  }
+  
+  #status {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #score-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  #score-table th,
+  #score-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #score-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  #score-table td {
+    text-align: center;
+  }
+  

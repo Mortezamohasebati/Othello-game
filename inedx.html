@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Othello Game</title>
+  <link rel="stylesheet" href="/Raw/styles.css">
+</head>
+<body>
+  <h1>Othello Game</h1>
+  <div id="mode-selection">
+    <button onclick="startGame('single')">Play Against Computer</button>
+    <button onclick="startGame('multiplayer')">Play With a Friend</button>
+  </div>  
+  <div id="game-container">
+    <div id="board"></div>
+  </div>
+  <p id="status">Player 1's turn (White)</p>
+  <table id="score-table">
+    <thead>
+      <tr>
+        <th>Turn</th>
+        <th>Player 1 (White)</th>
+        <th>Player 2 (Black)</th>
+      </tr>
+    </thead>
+    <tbody id="score-body"></tbody>
+  </table>
+  <script src="/Raw/script.js"></script>
+</body>
+</html>
