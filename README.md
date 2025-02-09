@@ -66,6 +66,8 @@
 - [Othello Rules](https://en.wikipedia.org/wiki/Reversi)
 
 ### تصویربازی
-![]()
+![](https://github.com/Mortezamohasebati/Othello-game/blob/main/Othello1.PNG)
+![](https://github.com/Mortezamohasebati/Othello-game/blob/main/Othello2.png)
+![](https://github.com/Mortezamohasebati/Othello-game/blob/main/Othello3.png)
 ---
 
