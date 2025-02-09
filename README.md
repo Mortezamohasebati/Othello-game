@@ -16,7 +16,7 @@
 
 ۱. **دانلود کد**: ابتدا کد پروژه را از ریپوزیتوری GitHub دانلود کنید.
    ```bash
-   git clone https://github.com/your-username/othello-game.git
+   git clone https://github.com/Mortezamohasebati/Othello-game
    cd othello-game
    ```
 
